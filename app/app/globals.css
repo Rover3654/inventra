@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Standard (Light Mode) */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* Dark Mode */
+.dark {
+  --background: #0f1115;
+  --foreground: #e7eaf0;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
